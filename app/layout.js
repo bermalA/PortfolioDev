@@ -1,7 +1,9 @@
-import { Inter } from "next/font/google";
+import { Inter, Sarabun, Satisfy } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"], weight: "400", variable: "--font-inter" });
+const satisfy = Satisfy({ subsets: ["latin"], weight: "400", variable: "--font-satisfy" });
+const sarabun = Sarabun({ subsets: ["latin"], weight: "400", variable: "--font-sarabun" });
 
 export const metadata = {
   title: "Create Next App",
@@ -11,7 +13,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${inter.className} ${satisfy.variable} ${sarabun.variable}`}>
+        {children}
+      </body>
     </html>
   );
 }
