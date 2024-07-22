@@ -2,8 +2,8 @@ import React from 'react';
 
 const Circle = ({ className }) => {
   return (
-    <div className={`bg-[var(--clr-peach)] w-1/6 h-1/6 rounded-full
-     drop-shadow-sm blur-xl -z-0 ${className}`}>
+    <div className={`bg-[var(--clr-peach)] w-[210px] h-[210px] rounded-full
+     drop-shadow-sm blur-xl animate-float -z-0 ${className}`}>
         <p className="invisible">Circle</p>
     </div>
   );

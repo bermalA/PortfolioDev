@@ -33,3 +33,27 @@
     transform: translateY(0);
   }
 }
+
+.box {
+  position: relative;
+  overflow: hidden;
+  background: rgba(233, 233, 233, 0.03); /* Semi-transparent white background */
+  backdrop-filter: blur(10px); /* Blur effect */
+  -webkit-backdrop-filter: blur(10px); /* For Safari support */
+  box-shadow: inset 4px 4px 6px rgba(219, 132, 101, 0.3); /* Inner shadow */
+  border-radius: 10px; /* Optional: Rounded corners for a smoother look */
+  border: 2px solid rgba(219, 132, 101, 0.5); /* Border color and transparency */
+}
+
+.box::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  width: calc(100% + 20px);
+  height: calc(100% + 20px);
+  background: inherit;
+  filter: blur(20px); /* Increased blur intensity for a more glassy effect */
+  z-index: -1;
+  border-radius: 12px; /* Match the parent border radius */
+}

@@ -16,16 +16,17 @@ module.exports = {
       },
       keyframes: {
         float: {
-          '0%': { transform: 'translateY(0) translateX(0)' },
-          '50%': { transform: 'translateY(-150px) translateX(150px)' },
-          '100%': { transform: 'translateY(150px) translateX(0)' },
+          '0%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-50%)' },
+          '100%': { transform: 'translateY(50%)' },
         },
       },
       animation: {
-        float: "float 5s ease-in-out infinite",
+        float: "float 2s ease-in-out infinite",
       },
       boxShadow: {
-        'lg-custom': '0 10px 15px -3px rgba(254, 216, 166, .5), 0 4px 6px -2px rgba(254, 216, 166, .25)',
+        'lg-custom': '0 3px 3px -3px rgba(254, 216, 166, .5), 0 6px 8px 3px rgba(254, 216, 166, .2)',
+        'shadow-box' : '0 3px 3px -3px rgba(219, 132, 101, .5), 0 6px 8px 3px rgba(219, 132, 101, .2)'
       },
     },
   },
