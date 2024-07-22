@@ -15,7 +15,7 @@ const Home = () => {
         <div className='mt-5 flex gap-4 justify-center'>
           <button className='border-[var(--clr-coffee)] border-2 
           p-2 rounded-xl'>
-            Let's Chat
+            My Resume
           </button>
           <button className='text-white bg-[var(--clr-coffee)] flex items-center p-2 rounded-xl'>
             View My Work
