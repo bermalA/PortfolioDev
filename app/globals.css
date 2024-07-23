@@ -22,6 +22,9 @@
   font-family: var(--font-satisfy);
 }
 
+.subheader{
+  font-family: var(--font-sarabun);
+}
 @keyframes float {
   0% {
     transform: translateY(0);

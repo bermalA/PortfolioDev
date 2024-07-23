@@ -3,7 +3,7 @@ import React from 'react';
 const About = () => {
   return (
     <div className="flex flex-col">
-          <div className='flex gap-4 pt-36 pb-32 p-10 bg-[var(--clr-brown)] text-white'>
+      <div className='flex gap-4 pt-36 pb-32 p-10 bg-[var(--clr-brown)] text-white'>
       <div className="flex items-center mt-16 mb-16 w-[2000px]
        justify-center">
         <img
@@ -23,7 +23,6 @@ const About = () => {
         </p>
       </div>
     </div>
-    <div className="bg-[var(--clr-isabelline)] h-[32px]"></div>
     </div>
   );
 }

@@ -3,7 +3,7 @@ import { RiArrowRightDoubleLine } from "react-icons/ri";
 
 const Home = () => {
   return (
-    <div className='flex-grow flex mb-72'>
+    <div className='flex-grow flex mb-[219px]'>
     <div className='flex-grow flex flex-col gap-7 items-center text-center justify-center'>
       <h1 className='text-8xl md:text-9xl text-shadow header font-bold text-[var(--clr-viridian)]'>Hello, <br /> I'm Bermal!</h1>
       <h4 className='text-lg text-[var(--clr-coffee)]'>Software Engineer | Sakarya, Turkey</h4>

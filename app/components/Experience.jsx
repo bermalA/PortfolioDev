@@ -3,8 +3,8 @@ import Skill from './Skill';
 
 const Experience = () => {
   return (
-    <div className='h-full bg-[var(--clr-isabelline)] p-5'>
-      <div className="grid grid-cols-3 gap-5 mt-16 mb-16">
+    <div className='h-[700px] flex justify-center bg-[var(--clr-isabelline)] p-5'>
+      <div className="grid grid-cols-3 gap-5 mt-12">
         <Skill title="Frontend Development" technologies={['HTML5', 'CSS3', '.NET ASP MVC', 'React.js', 'Next.js', 'Typescript', 'EcmaScript13', 'Web Assembly']} />
         <Skill title="Backend Development" technologies={['Node.js', 'Java SpringBoot']} />
         <Skill title="AI Development" technologies={['TensorFlow', 'TensorFlow Zoo Models', 'PyTorch', 'QT5', 'Scikit-learn']} />
