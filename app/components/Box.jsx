@@ -7,7 +7,7 @@ const Box = ({ children, onClick }) => {
       className='p-9 flex-grow h-36 box flex items-center justify-center' 
       onClick={onClick}
     >
-      <div className="text-xl font-sans w-40 flex justify-center text-[var(--clr-viridian)]">
+      <div className="text-xl font-sans w-40 flex justify-center text-[var(--clr-sienna)]">
         {children}
       </div>
     </div>
