@@ -1,5 +1,7 @@
 import React from 'react'
 import CLink from './CLink'
+import { FaGithub,FaLinkedin, FaPhoneAlt } from "react-icons/fa";
+import { IoMailOpen } from "react-icons/io5";
 
 const Contact = () => {
   return (
@@ -21,10 +23,15 @@ const Contact = () => {
         </div>
         <div className="float-left flex-grow flex gap-3
         flex-col items-center justify-center">
-          <CLink header="Github" text="link">Githb</CLink>
-          <CLink header="Github" text="link">Githb</CLink>
-          <CLink header="Github" text="link">Githb</CLink>
-          <CLink header="Github" text="link">Githb</CLink>
+          <CLink header="Email" text="bermal.aratoglu@gmail.com">
+            <IoMailOpen size={30} />
+          </CLink>
+          <CLink header="Github" text="Go to profile">
+            <FaGithub size={30} />
+          </CLink>
+          <CLink header="LinkedIn" text="Go to profile">
+            <FaLinkedin size={30} />
+          </CLink>
         </div>
     </div>
   )
