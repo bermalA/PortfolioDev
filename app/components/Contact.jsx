@@ -11,15 +11,15 @@ const Contact = () => {
         m-10 ms-16 gap-4 justify-center">
             <h1 class="text-[var(--clr-sienna)] text-5xl
            subheader mb-3">Contact me!</h1>
-            <input type='text' className='w-5/6 bg-[var(--clr-isabelline)]
+            <input type='text' placeholder="Your Name" className='w-5/6 bg-[var(--clr-isabelline)]
             border border-[var(--clr-coffee)] rounded-lg p-3'/>
-            <input type='text' className='w-5/6 bg-[var(--clr-isabelline)]
+            <input type='text' placeholder="Subject" className='w-5/6 bg-[var(--clr-isabelline)]
             border border-[var(--clr-coffee)] rounded-lg p-3'/>
-            <textarea className='w-5/6 bg-[var(--clr-isabelline)]
-            rounded-lg
+            <textarea placeholder="Your message"
+            className='w-5/6 bg-[var(--clr-isabelline)] rounded-lg
             border border-[var(--clr-coffee)] p-3 h-32'/>
             <button className='bg-[var(--clr-peach)] 
-            w-1/5 p-2 self-end mt-5 me-16 md:me-28'>btn</button>
+            w-1/5 p-2 self-end mt-5 text-white rounded-lg me-16 md:me-28'>Let's chat!</button>
         </div>
         <div className="float-left flex-grow flex gap-3
         flex-col items-center justify-center">
